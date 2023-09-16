@@ -1,9 +1,11 @@
 spring:
+  application:
+    name: Config-Default
   datasource:
-    url: jdbc:oracle:thin:@192.168.0.133:1521/XE
+    url: jdbc:mysql://localhost:3306/tech
     username: prithwi
-    password: Pass123
-    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: capgemini
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
@@ -11,7 +13,7 @@ spring:
     show-sql: true 
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.Oracle12cDialect
+        dialect: org.hibernate.dialect.MySQLDialect
 eureka:
   instance:
     prefer-ip-address: true
