@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/tech #jdbc:oracle:thin:@192.168.0.133:1521/XE
+    url: jdbc:mysql://localhost:3306/tech
     username: prithwi
     password: capgemini
-    driver-class-name: com.mysql.cj.jdbc.Driver  #oracle.jdbc.driver.OracleDriver
+    driver-class-name: com.mysql.cj.jdbc.Driver  
 
   jpa:
     hibernate:
