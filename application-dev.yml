@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:oracle:thin:@192.168.0.133:1521/XE
     username: prithwi
-    password: Pass123
+    password: Pass1234
     driver-class-name: oracle.jdbc.driver.OracleDriver
 
   jpa:
